@@ -64,10 +64,11 @@ In diesem Prüfugnsprojekt wird CopperSpice über folgenden lokalen Pfad eingebu
 
 Wenn CopperSpice auf dem Zielrechner an einem anderen Ort installiert ist, muss der Pfad entsprechend angepasst werden, da der Befehl `find_packages(CopperSpice REQUIRED)` (siehe CMakeLists.txt) sonst nicht die benötigten CopperSpice Libraries finden kann und der Build-Versuch eine Fehlermeldung ausgibt!
 
+Über den Befehl
 
 `cmake .. -DCMAKE_PREFIX_PATH=/home/misch/cs_demo/copperspice_lib/lib/cmake/CopperSpice`
 
-Durch Angabe dieses Pfades findet CMake CopperSpice über `find_package(CopperSpice REQUIRED)`.
+wird cmake der Ablageort von CopperSpice und seinen Libraries bekannt gemacht.
 
 ## 2) Kompilieren
 
@@ -85,27 +86,27 @@ build/deploy/
 
 ├─ bin/
 
-|  └─ Energieverbrauchsrechner
+  └─ Energieverbrauchsrechner
 
 ├─ include/
 
-|  └─ Energievebrauchsrechner.h
+  └─ Energievebrauchsrechner.h
 
 ├─ lib/
 
-|  └─ libCsCore1.9.so
+  └─ libCsCore1.9.so
 
-|  └─ libCsGui1.9.so
+  └─ libCsGui1.9.so
 
-|  └─ libCsXcbSupport1.9.so
+  └─ libCsXcbSupport1.9.so
 
-|  └─ libenergieverbrauch.a
+  └─ libenergieverbrauch.a
 
 ├─ plugins/
 
-|  ├─ platforms/
+  ├─ platforms/
 
-|  |  └─ CsGuiXcb1.9.so
+    └─ CsGuiXcb1.9.so
 
 ## 4) Programm starten
 
