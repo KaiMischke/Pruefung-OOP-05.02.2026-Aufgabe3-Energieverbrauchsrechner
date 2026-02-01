@@ -1,0 +1,1 @@
+# Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner
