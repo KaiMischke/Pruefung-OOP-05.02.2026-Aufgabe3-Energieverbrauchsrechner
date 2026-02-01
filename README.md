@@ -10,7 +10,7 @@ Dazu gibt der Benutzer über die GUI folgende Daten ein:
 
 Das Programm berechnet daraus dann:
 - **Energieverbrauch** in kWh
-- **Stromskosten** in Euro (netto brutto, je nachdem, ob die Mehrwertsteuer-Checkbox aktiv oder inaktiv ist)
+- **Stromkosten** in Euro (netto brutto, je nachdem, ob die Mehrwertsteuer-Checkbox aktiv oder inaktiv ist)
 
 ---
 
@@ -40,7 +40,7 @@ Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/
 
 - **GUI-Anwendung**
   - Hauptfenster.h / .cpp
-  - Benutzerinteraktion und Darstellung
+  - Enthält die Benutzerinteraktion und Darstellung
 
 - **main.cpp**
   - Startpunkt der Anwendung
@@ -98,7 +98,7 @@ build/deploy/
 
 ├─ include/
 
-|  └─ Energievebrauchsrechner.h
+|  └─ Energieverbrauchsrechner.h
 
 ├─ lib/
 
@@ -120,7 +120,9 @@ build/deploy/
 
 Zum Starten des Programms wird ein Skript im Verzeichnis build/deploy/ angelegt, das die nötigen Laufzeitpfade setzt:
 
-`touch run.sh`
+`vim run.sh`
+
+und der nachfolgende Code eingegeben:
 
 ```
 #!/usr/bin/env bash
