@@ -1,0 +1,7 @@
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/bin/Energieverbrauchsrechner
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/lib/libenergieverbrauch.a
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/include/Energieverbrauchsrechner.h
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/lib/libCsCore1.9.so
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/lib/libCsGui1.9.so
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/lib/libCsXcbSupport1.9.so
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/deploy/plugins/platforms/CsGuiXcb1.9.so

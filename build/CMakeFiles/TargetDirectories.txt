@@ -1,0 +1,8 @@
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/energieverbrauch.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/Energieverbrauchsrechner.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/edit_cache.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/rebuild_cache.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/list_install_components.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/install.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/install/local.dir
+/home/misch/Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/build/CMakeFiles/install/strip.dir

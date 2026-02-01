@@ -1,0 +1,2 @@
+/usr/bin/ar qc libenergieverbrauch.a CMakeFiles/energieverbrauch.dir/src/Energieverbrauchsrechner.cpp.o
+/usr/bin/ranlib libenergieverbrauch.a
