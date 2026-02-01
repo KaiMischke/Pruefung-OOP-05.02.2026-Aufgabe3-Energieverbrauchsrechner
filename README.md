@@ -18,12 +18,19 @@ Das Programm berechnet daraus dann:
 
 Pruefung-OOP-05.02.2026-Aufgabe3-Energieverbrauchsrechner/
 ├─ CMakeLists.txt
+
 ├─ README.md
+
 └─ src/
+
   ├─ main.cpp
+  
   ├─ Hauptfenster.h
+  
   ├─ Hauptfenster.cpp
+  
   ├─ Energieverbrauchsrechner.h
+  
   ├─ Energieverbrauchsrechner.cpp
 
 ## Aufteilung
@@ -52,10 +59,11 @@ In diesem Prüfugnsprojekt wird CopperSpice über folgenden lokalen Pfad eingebu
 
 **/home/misch/cs_demo/copperspice_lib/lib/cmake/CopperSpice**
 
----
+
 **Wichtiger Hinweis:**
+
 Wenn CopperSpice auf dem Zielrechner an einem anderen Ort installiert ist, muss der Pfad entsprechend angepasst werden, da der Befehl `find_packages(CopperSpice REQUIRED)` (siehe CMakeLists.txt) sonst nicht die benötigten CopperSpice Libraries finden kann und der Build-Versuch eine Fehlermeldung ausgibt!
----
+
 
 `cmake .. -DCMAKE_PREFIX_PATH=/home/misch/cs_demo/copperspice_lib/lib/cmake/CopperSpice`
 
@@ -74,17 +82,29 @@ Für ein lauffähiges Paket, wird das Programm inklusive aller benötigter Libra
 Dadurch wird im Projekt-Verzeichnis folgende Struktur angelegt:
 
 build/deploy/
+
 ├─ bin/
+
 |  └─ Energieverbrauchsrechner
+
 ├─ include/
+
 |  └─ Energievebrauchsrechner.h
+
 ├─ lib/
+
 |  └─ libCsCore1.9.so
+
 |  └─ libCsGui1.9.so
+
 |  └─ libCsXcbSupport1.9.so
+
 |  └─ libenergieverbrauch.a
+
 ├─ plugins/
+
 |  ├─ platforms/
+
 |  |  └─ CsGuiXcb1.9.so
 
 ## 4) Programm starten
@@ -100,6 +120,7 @@ export DISPLAY=:0
 export LD_LIBRARY_PATH="$DIR/lib:${LD_LIBRARY_PATH}"
 export CS_PLUGIN_PATH="$DIR/plugins"
 exec "$DIR/bin/Energieverbrauchsrechner"
+```
 
 Anschließend wird das Skript mit dem nachfolgenden Befehl ausführbar gemacht:
 
