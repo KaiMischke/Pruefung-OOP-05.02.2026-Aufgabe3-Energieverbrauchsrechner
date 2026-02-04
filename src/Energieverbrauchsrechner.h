@@ -1,3 +1,5 @@
+//Beginn Include-Guard
+//Schutz vor Mehrfacheinbindung der Header-Datei
 #ifndef ENERGIEVERBRAUCHSRECHNER_H
 #define ENERGIEVERBRAUCHSRECHNER_H
 
@@ -11,19 +13,28 @@ struct Ergebnis {
     double kosten_brutto;
 };
 
+//Deklaration der Logikklasse
 class Energieverbrauchsrechner
 {
 public:
+    //Deklaration des Konstruktors
     Energieverbrauchsrechner();
+    //Deklaration des Destruktors
     ~Energieverbrauchsrechner();
 
+    //Deklaration der Klassenmethode `berechne`
     Ergebnis berechne(double leistung_kW,
                       double laufzeit_h,
                       double preis_eur_kWh,
                       bool mwst_aktiv) const;
 
 private:
+    //Deklaration der Klassenmethode `begrenze`
     void begrenze(double &wert, double min, double max) const;
+
+//Ende der Klassendeklaration 
 };
 
+//Ende des Include-Guards
 #endif
+
