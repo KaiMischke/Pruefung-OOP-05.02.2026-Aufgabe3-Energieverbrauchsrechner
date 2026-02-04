@@ -78,6 +78,8 @@ Wenn CopperSpice auf dem Zielrechner an einem anderen Ort installiert ist, muss 
 
 wird cmake der Ablageort von CopperSpice und seinen Libraries bekannt gemacht.
 
+Zusätzlich muss im `CMakeLists.txt` im Befehl `set(CS_PREFIX "$ENV{HOME}/cs_demo/copperspice_lib")` `cs_demo` durch den lokalen copperspice-Installationspfad ersetzt werden.
+
 ## 2) Kompilieren
 
 `cmake --build .`
